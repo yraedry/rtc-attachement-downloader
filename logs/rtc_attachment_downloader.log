@@ -1,0 +1,108 @@
+2020-10-19 10:54:00,041 - utils.logger_utils - INFO - area => CCN CSI Gateway Transformation (RfA010)
+2020-10-19 10:54:00,915 - utils.logger_utils - INFO - query => dc:type="defect"  and dc:created >= "2016-01-01T00:00:00Z" and  dc:created <= "2016-12-31T00:00:00Z"
+2020-10-19 10:54:06,485 - utils.logger_utils - INFO - WorkItem ID => 31885
+2020-10-19 10:54:07,947 - utils.logger_utils - INFO - Attachment => ccnApplicationStatSnd.ldif.htm
+2020-10-19 10:54:08,238 - utils.logger_utils - INFO - Attachment => Evidences_RTC31885.zip
+2020-10-19 10:54:10,140 - utils.logger_utils - INFO - Attachment => act-config-prod.zip
+2020-10-19 10:54:10,535 - utils.logger_utils - INFO - Attachment => globalSettings.properties.htm
+2020-10-19 10:54:10,810 - utils.logger_utils - INFO - Attachment => Diff_ACT_300_301.xlsx
+2020-10-19 10:54:11,082 - utils.logger_utils - INFO - WorkItem ID => 31202
+2020-10-19 10:54:12,544 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 10:54:12,544 - utils.logger_utils - INFO - WorkItem ID => 32108
+2020-10-19 10:54:14,008 - utils.logger_utils - INFO - Attachment => RTC32018.jpg
+2020-10-19 10:54:14,424 - utils.logger_utils - INFO - WorkItem ID => 31436
+2020-10-19 10:54:15,830 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 10:54:15,830 - utils.logger_utils - INFO - WorkItem ID => 31401
+2020-10-19 10:54:17,265 - utils.logger_utils - INFO - Attachment => RTC31401_evidences.rar
+2020-10-19 10:54:18,117 - utils.logger_utils - CRITICAL - Traceback (most recent call last):
+  File "C:\python\lib\shutil.py", line 781, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\rtc_attachment_downloader.log' -> 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\\\rotate_logs\\rtc_attachment_downloader_20201019-105418.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Proyectos\Unisys\RTCAttachementDownloader\utils\Directory_utils.py", line 61, in rotate_logs
+    shutil.move(f, destination_path + 'rtc_attachment_downloader_{}.log'.format(timestr))
+  File "C:\python\lib\shutil.py", line 796, in move
+    os.unlink(src)
+PermissionError: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\rtc_attachment_downloader.log'
+
+2020-10-19 10:56:47,295 - utils.logger_utils - INFO - area => CCN CSI Gateway Transformation (RfA010)
+2020-10-19 10:56:48,218 - utils.logger_utils - INFO - query => dc:type="defect"  and dc:created >= "2016-01-01T00:00:00Z" and  dc:created <= "2016-12-31T00:00:00Z"
+2020-10-19 10:56:57,270 - utils.logger_utils - INFO - WorkItem ID => 31885
+2020-10-19 10:56:58,682 - utils.logger_utils - INFO - Attachment => ccnApplicationStatSnd.ldif.htm
+2020-10-19 10:56:58,919 - utils.logger_utils - INFO - Attachment => Evidences_RTC31885.zip
+2020-10-19 10:57:00,791 - utils.logger_utils - INFO - Attachment => act-config-prod.zip
+2020-10-19 10:57:01,180 - utils.logger_utils - INFO - Attachment => globalSettings.properties.htm
+2020-10-19 10:57:01,455 - utils.logger_utils - INFO - Attachment => Diff_ACT_300_301.xlsx
+2020-10-19 10:57:01,736 - utils.logger_utils - INFO - WorkItem ID => 31202
+2020-10-19 10:57:03,225 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 10:57:03,225 - utils.logger_utils - INFO - WorkItem ID => 32108
+2020-10-19 10:57:04,679 - utils.logger_utils - INFO - Attachment => RTC32018.jpg
+2020-10-19 10:57:05,077 - utils.logger_utils - INFO - WorkItem ID => 31436
+2020-10-19 10:57:06,505 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 10:57:06,505 - utils.logger_utils - INFO - WorkItem ID => 31401
+2020-10-19 10:57:08,018 - utils.logger_utils - INFO - Attachment => RTC31401_evidences.rar
+2020-10-19 10:59:47,385 - utils.logger_utils - INFO - area => CCN CSI Gateway Transformation (RfA010)
+2020-10-19 10:59:48,257 - utils.logger_utils - INFO - query => dc:type="defect"  and dc:created >= "2016-01-01T00:00:00Z" and  dc:created <= "2016-12-31T00:00:00Z"
+2020-10-19 10:59:54,780 - utils.logger_utils - INFO - WorkItem ID => 31885
+2020-10-19 10:59:56,314 - utils.logger_utils - INFO - Attachment => ccnApplicationStatSnd.ldif.htm
+2020-10-19 10:59:56,561 - utils.logger_utils - INFO - Attachment => Evidences_RTC31885.zip
+2020-10-19 10:59:58,518 - utils.logger_utils - INFO - Attachment => act-config-prod.zip
+2020-10-19 10:59:58,925 - utils.logger_utils - INFO - Attachment => globalSettings.properties.htm
+2020-10-19 10:59:59,225 - utils.logger_utils - INFO - Attachment => Diff_ACT_300_301.xlsx
+2020-10-19 10:59:59,507 - utils.logger_utils - INFO - WorkItem ID => 31202
+2020-10-19 11:00:00,972 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:00:00,973 - utils.logger_utils - INFO - WorkItem ID => 32108
+2020-10-19 11:00:02,451 - utils.logger_utils - INFO - Attachment => RTC32018.jpg
+2020-10-19 11:00:02,836 - utils.logger_utils - INFO - WorkItem ID => 31436
+2020-10-19 11:00:04,319 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:00:04,319 - utils.logger_utils - INFO - WorkItem ID => 31401
+2020-10-19 11:00:05,899 - utils.logger_utils - INFO - Attachment => RTC31401_evidences.rar
+2020-10-19 11:00:43,191 - utils.logger_utils - INFO - area => CCN CSI Gateway Transformation (RfA010)
+2020-10-19 11:00:44,112 - utils.logger_utils - INFO - query => dc:type="defect"  and dc:created >= "2016-01-01T00:00:00Z" and  dc:created <= "2016-12-31T00:00:00Z"
+2020-10-19 11:00:49,533 - utils.logger_utils - INFO - WorkItem ID => 31885
+2020-10-19 11:00:50,981 - utils.logger_utils - INFO - Attachment => ccnApplicationStatSnd.ldif.htm
+2020-10-19 11:00:51,221 - utils.logger_utils - INFO - Attachment => Evidences_RTC31885.zip
+2020-10-19 11:00:53,178 - utils.logger_utils - INFO - Attachment => act-config-prod.zip
+2020-10-19 11:00:53,580 - utils.logger_utils - INFO - Attachment => globalSettings.properties.htm
+2020-10-19 11:00:53,858 - utils.logger_utils - INFO - Attachment => Diff_ACT_300_301.xlsx
+2020-10-19 11:00:54,152 - utils.logger_utils - INFO - WorkItem ID => 31202
+2020-10-19 11:00:55,572 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:00:55,572 - utils.logger_utils - INFO - WorkItem ID => 32108
+2020-10-19 11:00:56,978 - utils.logger_utils - INFO - Attachment => RTC32018.jpg
+2020-10-19 11:00:57,371 - utils.logger_utils - INFO - WorkItem ID => 31436
+2020-10-19 11:00:58,850 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:00:58,850 - utils.logger_utils - INFO - WorkItem ID => 31401
+2020-10-19 11:01:00,414 - utils.logger_utils - INFO - Attachment => RTC31401_evidences.rar
+2020-10-19 11:52:31,338 - utils.logger_utils - INFO - area => CCN CSI Gateway Transformation (RfA010)
+2020-10-19 11:52:32,213 - utils.logger_utils - INFO - query => dc:type="defect"  and dc:created >= "2016-01-01T00:00:00Z" and  dc:created <= "2016-12-31T00:00:00Z"
+2020-10-19 11:52:37,766 - utils.logger_utils - INFO - WorkItem ID => 31885
+2020-10-19 11:52:39,174 - utils.logger_utils - INFO - Attachment => ccnApplicationStatSnd.ldif.htm
+2020-10-19 11:52:39,411 - utils.logger_utils - INFO - Attachment => Evidences_RTC31885.zip
+2020-10-19 11:52:41,315 - utils.logger_utils - INFO - Attachment => act-config-prod.zip
+2020-10-19 11:52:41,700 - utils.logger_utils - INFO - Attachment => globalSettings.properties.htm
+2020-10-19 11:52:41,976 - utils.logger_utils - INFO - Attachment => Diff_ACT_300_301.xlsx
+2020-10-19 11:52:42,255 - utils.logger_utils - INFO - WorkItem ID => 31202
+2020-10-19 11:52:43,661 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:52:43,662 - utils.logger_utils - INFO - WorkItem ID => 32108
+2020-10-19 11:52:45,043 - utils.logger_utils - INFO - Attachment => RTC32018.jpg
+2020-10-19 11:52:45,411 - utils.logger_utils - INFO - WorkItem ID => 31436
+2020-10-19 11:52:46,796 - utils.logger_utils - INFO - There is no attachment for this workitem
+2020-10-19 11:52:46,797 - utils.logger_utils - INFO - WorkItem ID => 31401
+2020-10-19 11:52:48,229 - utils.logger_utils - INFO - Attachment => RTC31401_evidences.rar
+2020-10-19 11:52:49,052 - utils.logger_utils - CRITICAL - Traceback (most recent call last):
+  File "C:\python\lib\shutil.py", line 781, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\rtc_attachment_downloader.log' -> 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\\\rotate_logs\\rtc_attachment_downloader_20201019-115249.log'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Proyectos\Unisys\RTCAttachementDownloader\utils\Directory_utils.py", line 59, in rotate_logs
+    shutil.move(rtc_attachment_downloader_log, destination_path + file)
+  File "C:\python\lib\shutil.py", line 796, in move
+    os.unlink(src)
+PermissionError: [WinError 32] El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso: 'C:\\Proyectos\\Unisys\\RTCAttachementDownloader\\logs\\rtc_attachment_downloader.log'
+
