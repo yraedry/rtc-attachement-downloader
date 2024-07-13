@@ -14,7 +14,7 @@
 * Configure properties in `properties\properties.py`
     * rtc_url = url of rtc, is configure by default, no need to change it
      
-            rtc_url = https://rtc.ccn2dev.eu:9443/ccm     
+            rtc_url = https://rtc.xxxxx.xx:port/xxx     
        
     * rtc_username = your RTC user
     
@@ -56,12 +56,11 @@
      
     * query_configItem = configuration item of workitem
     
-            query_configItem = 'CCN2 Platform'
+            query_configItem = 'XXXX Platform'
             IMPORTANT: with this property we can only put one value
             
 ## Execution
     1. Install python 3.8
     2. Execute prepare_environment.bat
     3. Configure the properties
-    4. Active pulse VPN
     5. Execute start_rtc_attachement_downloader.bat
