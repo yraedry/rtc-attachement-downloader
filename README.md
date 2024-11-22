@@ -1,4 +1,4 @@
-# RTCAttachmentDownloader
+# rtc-attachment-downloader
 
 ## Requirements
 
